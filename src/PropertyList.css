@@ -1,0 +1,39 @@
+.PropertyList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+  }
+  
+  .Property {
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 20px; 
+    text-align: center;
+    width: 220px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .Property h2 {
+    margin: 0;
+    color: #333; 
+    font-size: 1.5rem; 
+  }
+  
+  .Property h3,
+  .Property h4 {
+    margin: 5px 0;
+    color: #606260; 
+  }
+  
+  .Property h3 {
+    font-size: 1.2rem; 
+  }
+  
+  .Property h4 {
+    font-size: 1rem; 
+    font-weight: 600;
+    color: #ab700a; 
+  }
+  
